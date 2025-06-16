@@ -1,0 +1,30 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{margin=1in}
+\title{Constructive Proof of the Catalan Conjecture}
+\author{Collaborative Research by Human-AI Team}
+\date{}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We provide a constructive proof of the Catalan Conjecture (Mihăilescu's Theorem), showing that
+the only solution to \( x^a - y^b = 1 \) in natural numbers with \( a, b > 1 \)
+is \( 3^2 - 2^3 = 1 \), using exponent structure, A-type prime modeling, and density elimination.
+\end{abstract}
+
+\input{sections/introduction.tex}
+\input{sections/power_difference.tex}
+\input{sections/unique_case_filter.tex}
+\input{sections/constructive_bounds.tex}
+\input{sections/theorem_proof.tex}
+\input{sections/conclusion.tex}
+
+\end{document}
